@@ -1,0 +1,158 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Alberto Faus</title>
+</head>
+
+<body>
+
+    <header>
+
+        <h1>Contacto</h1>
+
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="entorno.html">Entorno</a>
+            <a href="sobre-mi.html">Sobre mí</a>
+            <a href="proyectos.html">Proyectos</a>
+            <a href="cv.html">CV</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+
+    </header>
+
+    <a href="#contenido">Saltar al contenido</a>
+
+    <main id="contenido">
+
+        <section>
+
+            <h2>Formulario de contacto</h2>
+
+            <form action="#" method="post">
+
+                <fieldset>
+
+                    <legend>Datos personales</legend>
+
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre"
+                    name="nombre" required>
+
+                    <br><br>
+
+                    <label for="correo">Correo electrónico:</label>
+                    <input type="email" id="correo"
+                    name="correo" required>
+
+                    <br><br>
+
+                    <label for="motivo">Motivo del contacto:</label>
+
+                    <select id="motivo" name="motivo">
+
+                        <option value="consulta">Consulta</option>
+                        <option value="trabajo">Trabajo</option>
+                        <option value="proyecto">Proyecto</option>
+                        <option value="otro">Otro</option>
+
+                    </select>
+
+                </fieldset>
+
+                <fieldset>
+
+                    <legend>Información adicional</legend>
+
+                    <p>¿Cómo me has conocido?</p>
+
+                    <input type="radio" id="github"
+                    name="conocido" value="github">
+
+                    <label for="github">GitHub</label>
+
+                    <br>
+
+                    <input type="radio" id="redes"
+                    name="conocido" value="redes">
+
+                    <label for="redes">Redes sociales</label>
+
+                    <br>
+
+                    <input type="radio" id="otro"
+                    name="conocido" value="otro">
+
+                    <label for="otro">Otro</label>
+
+                    <br><br>
+
+                    <label for="mensaje">Mensaje:</label>
+
+                    <br>
+
+                    <textarea id="mensaje"
+                    name="mensaje"
+                    rows="5"
+                    cols="40"
+                    maxlength="500"></textarea>
+
+                </fieldset>
+
+                <fieldset>
+
+                    <legend>Privacidad</legend>
+
+                    <input type="checkbox"
+                    id="privacidad"
+                    name="privacidad"
+                    required>
+
+                    <label for="privacidad">
+                        Acepto la política de privacidad.
+                    </label>
+
+                </fieldset>
+
+                <br>
+
+                <button type="submit">Enviar mensaje</button>
+
+            </form>
+
+        </section>
+
+        <section>
+
+            <h2>Contacto alternativo</h2>
+
+            <p>
+                También puedes contactar conmigo
+                mediante correo electrónico:
+            </p>
+
+            <a href="mailto:fausalbeldaa@gmail.com">
+                Enviar un correo electrónico
+            </a>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <p>Autor: Alberto Faus</p>
+
+        <p>© 2026</p>
+
+        <a href="https://github.com/ps4albertofaus-lang">Mi GitHub</a>
+
+    </footer>
+
+</body>
+
+</html>
